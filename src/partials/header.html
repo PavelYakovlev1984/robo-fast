@@ -1,29 +1,35 @@
 <header class="header">
-  <div class="container-fluid header-container">
+  <div class="cantainer-fluid header-container">
     <a class="logo" href="#">
-      <img class="image" src="img/logo.svg" alt="" width="228" height="48" />
+      <img
+        loading="lazy"
+        src="img/logo.svg"
+        class="image"
+        width="228"
+        height="48"
+        alt=""
+      />
     </a>
-
-    <nav class="nav" title="">
+    <nav class="nav" title="Главное меню">
       <ul class="list-reset nav__list">
         <li class="nav__item">
-          <a href="#" class="nav__link" data-menu-item data-scroll>О школе</a>
+          <a href="#about" class="nav__link">О школе</a>
         </li>
         <li class="nav__item">
-          <a href="#" class="nav__link" data-menu-item data-scroll>Тренеры</a>
+          <a href="#trainers" class="nav__link">Тренеры</a>
         </li>
         <li class="nav__item">
-          <a href="#" class="nav__link" data-menu-item data-scroll>Стоимость</a>
+          <a href="#tariffs" class="nav__link">Стоимость</a>
         </li>
       </ul>
+      <a class="phone header__phone" href="tel:+79602831991"
+        >+7 960 283 19 91</a
+      >
+      <button class="btn-reset" data-graph-path="false">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
     </nav>
-
-    <a class="phone header__phone" href="tel:+78000001122">+7 800 000 11 22</a>
-
-    <button class="btn-reset burger" aria-label="Открыть меню">
-      <span class="burger__line"></span>
-      <span class="burger__line"></span>
-      <span class="burger__line"></span>
-    </button>
   </div>
 </header>
